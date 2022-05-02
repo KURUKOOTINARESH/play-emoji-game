@@ -1,0 +1,51 @@
+/* Write your code here. */
+.app-con {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav-con {
+  height: 15vh;
+}
+.emojis-con {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  width: 60%;
+}
+.win-lose-con {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 50%;
+  padding: 48px;
+  border-radius: 12px;
+  margin-top: 24px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.win-lose-img {
+  height: 350px;
+  width: 300px;
+  margin-left: 48px;
+}
+.result-text {
+  color: #ffffff;
+}
+.play-again-button {
+  height: 40px;
+  width: 100px;
+  background-color: #ffce27;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 4px;
+}
+.content-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
